@@ -1,0 +1,268 @@
+(zhetorch) xhr@xhr-System-Product-Name:/media/xhr/126C26EA6C26C7F5/zhe/project/pratice/resnet_ca$ python train.py
+using cuda:0 device.
+Using 16 dataloader workers every process
+using 1281167 images for training, 50000 images for validation.
+conv1.weight : torch.Size([64, 3, 7, 7])
+bn1.weight : torch.Size([64])
+bn1.bias : torch.Size([64])
+layer1.0.conv1.weight : torch.Size([64, 64, 1, 1])
+layer1.0.bn1.weight : torch.Size([64])
+layer1.0.bn1.bias : torch.Size([64])
+layer1.0.conv2.weight : torch.Size([64, 64, 3, 3])
+layer1.0.bn2.weight : torch.Size([64])
+layer1.0.bn2.bias : torch.Size([64])
+layer1.0.conv3.weight : torch.Size([256, 64, 1, 1])
+layer1.0.bn3.weight : torch.Size([256])
+layer1.0.bn3.bias : torch.Size([256])
+layer1.0.downsample.0.weight : torch.Size([256, 64, 1, 1])
+layer1.0.downsample.1.weight : torch.Size([256])
+layer1.0.downsample.1.bias : torch.Size([256])
+layer1.1.conv1.weight : torch.Size([64, 256, 1, 1])
+layer1.1.bn1.weight : torch.Size([64])
+layer1.1.bn1.bias : torch.Size([64])
+layer1.1.conv2.weight : torch.Size([64, 64, 3, 3])
+layer1.1.bn2.weight : torch.Size([64])
+layer1.1.bn2.bias : torch.Size([64])
+layer1.1.conv3.weight : torch.Size([256, 64, 1, 1])
+layer1.1.bn3.weight : torch.Size([256])
+layer1.1.bn3.bias : torch.Size([256])
+layer1.2.conv1.weight : torch.Size([64, 256, 1, 1])
+layer1.2.bn1.weight : torch.Size([64])
+layer1.2.bn1.bias : torch.Size([64])
+layer1.2.conv2.weight : torch.Size([64, 64, 3, 3])
+layer1.2.bn2.weight : torch.Size([64])
+layer1.2.bn2.bias : torch.Size([64])
+layer1.2.conv3.weight : torch.Size([256, 64, 1, 1])
+layer1.2.bn3.weight : torch.Size([256])
+layer1.2.bn3.bias : torch.Size([256])
+layer2.0.conv1.weight : torch.Size([128, 256, 1, 1])
+layer2.0.bn1.weight : torch.Size([128])
+layer2.0.bn1.bias : torch.Size([128])
+layer2.0.conv2.weight : torch.Size([128, 128, 3, 3])
+layer2.0.bn2.weight : torch.Size([128])
+layer2.0.bn2.bias : torch.Size([128])
+layer2.0.conv3.weight : torch.Size([512, 128, 1, 1])
+layer2.0.bn3.weight : torch.Size([512])
+layer2.0.bn3.bias : torch.Size([512])
+layer2.0.downsample.0.weight : torch.Size([512, 256, 1, 1])
+layer2.0.downsample.1.weight : torch.Size([512])
+layer2.0.downsample.1.bias : torch.Size([512])
+layer2.1.conv1.weight : torch.Size([128, 512, 1, 1])
+layer2.1.bn1.weight : torch.Size([128])
+layer2.1.bn1.bias : torch.Size([128])
+layer2.1.conv2.weight : torch.Size([128, 128, 3, 3])
+layer2.1.bn2.weight : torch.Size([128])
+layer2.1.bn2.bias : torch.Size([128])
+layer2.1.conv3.weight : torch.Size([512, 128, 1, 1])
+layer2.1.bn3.weight : torch.Size([512])
+layer2.1.bn3.bias : torch.Size([512])
+layer2.2.conv1.weight : torch.Size([128, 512, 1, 1])
+layer2.2.bn1.weight : torch.Size([128])
+layer2.2.bn1.bias : torch.Size([128])
+layer2.2.conv2.weight : torch.Size([128, 128, 3, 3])
+layer2.2.bn2.weight : torch.Size([128])
+layer2.2.bn2.bias : torch.Size([128])
+layer2.2.conv3.weight : torch.Size([512, 128, 1, 1])
+layer2.2.bn3.weight : torch.Size([512])
+layer2.2.bn3.bias : torch.Size([512])
+layer2.3.conv1.weight : torch.Size([128, 512, 1, 1])
+layer2.3.bn1.weight : torch.Size([128])
+layer2.3.bn1.bias : torch.Size([128])
+layer2.3.conv2.weight : torch.Size([128, 128, 3, 3])
+layer2.3.bn2.weight : torch.Size([128])
+layer2.3.bn2.bias : torch.Size([128])
+layer2.3.conv3.weight : torch.Size([512, 128, 1, 1])
+layer2.3.bn3.weight : torch.Size([512])
+layer2.3.bn3.bias : torch.Size([512])
+layer3.0.conv1.weight : torch.Size([256, 512, 1, 1])
+layer3.0.bn1.weight : torch.Size([256])
+layer3.0.bn1.bias : torch.Size([256])
+layer3.0.conv2.weight : torch.Size([256, 256, 3, 3])
+layer3.0.bn2.weight : torch.Size([256])
+layer3.0.bn2.bias : torch.Size([256])
+layer3.0.conv3.weight : torch.Size([1024, 256, 1, 1])
+layer3.0.bn3.weight : torch.Size([1024])
+layer3.0.bn3.bias : torch.Size([1024])
+layer3.0.downsample.0.weight : torch.Size([1024, 512, 1, 1])
+layer3.0.downsample.1.weight : torch.Size([1024])
+layer3.0.downsample.1.bias : torch.Size([1024])
+layer3.1.conv1.weight : torch.Size([256, 1024, 1, 1])
+layer3.1.bn1.weight : torch.Size([256])
+layer3.1.bn1.bias : torch.Size([256])
+layer3.1.conv2.weight : torch.Size([256, 256, 3, 3])
+layer3.1.bn2.weight : torch.Size([256])
+layer3.1.bn2.bias : torch.Size([256])
+layer3.1.conv3.weight : torch.Size([1024, 256, 1, 1])
+layer3.1.bn3.weight : torch.Size([1024])
+layer3.1.bn3.bias : torch.Size([1024])
+layer3.2.conv1.weight : torch.Size([256, 1024, 1, 1])
+layer3.2.bn1.weight : torch.Size([256])
+layer3.2.bn1.bias : torch.Size([256])
+layer3.2.conv2.weight : torch.Size([256, 256, 3, 3])
+layer3.2.bn2.weight : torch.Size([256])
+layer3.2.bn2.bias : torch.Size([256])
+layer3.2.conv3.weight : torch.Size([1024, 256, 1, 1])
+layer3.2.bn3.weight : torch.Size([1024])
+layer3.2.bn3.bias : torch.Size([1024])
+layer3.3.conv1.weight : torch.Size([256, 1024, 1, 1])
+layer3.3.bn1.weight : torch.Size([256])
+layer3.3.bn1.bias : torch.Size([256])
+layer3.3.conv2.weight : torch.Size([256, 256, 3, 3])
+layer3.3.bn2.weight : torch.Size([256])
+layer3.3.bn2.bias : torch.Size([256])
+layer3.3.conv3.weight : torch.Size([1024, 256, 1, 1])
+layer3.3.bn3.weight : torch.Size([1024])
+layer3.3.bn3.bias : torch.Size([1024])
+layer3.4.conv1.weight : torch.Size([256, 1024, 1, 1])
+layer3.4.bn1.weight : torch.Size([256])
+layer3.4.bn1.bias : torch.Size([256])
+layer3.4.conv2.weight : torch.Size([256, 256, 3, 3])
+layer3.4.bn2.weight : torch.Size([256])
+layer3.4.bn2.bias : torch.Size([256])
+layer3.4.conv3.weight : torch.Size([1024, 256, 1, 1])
+layer3.4.bn3.weight : torch.Size([1024])
+layer3.4.bn3.bias : torch.Size([1024])
+layer3.5.conv1.weight : torch.Size([256, 1024, 1, 1])
+layer3.5.bn1.weight : torch.Size([256])
+layer3.5.bn1.bias : torch.Size([256])
+layer3.5.conv2.weight : torch.Size([256, 256, 3, 3])
+layer3.5.bn2.weight : torch.Size([256])
+layer3.5.bn2.bias : torch.Size([256])
+layer3.5.conv3.weight : torch.Size([1024, 256, 1, 1])
+layer3.5.bn3.weight : torch.Size([1024])
+layer3.5.bn3.bias : torch.Size([1024])
+layer4.0.conv1.weight : torch.Size([512, 1024, 1, 1])
+layer4.0.bn1.weight : torch.Size([512])
+layer4.0.bn1.bias : torch.Size([512])
+layer4.0.conv2.weight : torch.Size([512, 512, 3, 3])
+layer4.0.bn2.weight : torch.Size([512])
+layer4.0.bn2.bias : torch.Size([512])
+layer4.0.conv3.weight : torch.Size([2048, 512, 1, 1])
+layer4.0.bn3.weight : torch.Size([2048])
+layer4.0.bn3.bias : torch.Size([2048])
+layer4.0.downsample.0.weight : torch.Size([2048, 1024, 1, 1])
+layer4.0.downsample.1.weight : torch.Size([2048])
+layer4.0.downsample.1.bias : torch.Size([2048])
+layer4.1.conv1.weight : torch.Size([512, 2048, 1, 1])
+layer4.1.bn1.weight : torch.Size([512])
+layer4.1.bn1.bias : torch.Size([512])
+layer4.1.conv2.weight : torch.Size([512, 512, 3, 3])
+layer4.1.bn2.weight : torch.Size([512])
+layer4.1.bn2.bias : torch.Size([512])
+layer4.1.conv3.weight : torch.Size([2048, 512, 1, 1])
+layer4.1.bn3.weight : torch.Size([2048])
+layer4.1.bn3.bias : torch.Size([2048])
+layer4.2.conv1.weight : torch.Size([512, 2048, 1, 1])
+layer4.2.bn1.weight : torch.Size([512])
+layer4.2.bn1.bias : torch.Size([512])
+layer4.2.conv2.weight : torch.Size([512, 512, 3, 3])
+layer4.2.bn2.weight : torch.Size([512])
+layer4.2.bn2.bias : torch.Size([512])
+layer4.2.conv3.weight : torch.Size([2048, 512, 1, 1])
+layer4.2.bn3.weight : torch.Size([2048])
+layer4.2.bn3.bias : torch.Size([2048])
+fc.weight : torch.Size([1000, 2048])
+fc.bias : torch.Size([1000])
+train epoch[1/20] loss:1.568:  92%|████████████████████████████████████████████████████████████████████████████████████████████████▏       | 9843/10644 [3:52:25<51:43,  3.88s/it]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[1/20] loss:1.914: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:13:33<00:00,  1.43s/it]
+valid epoch[1/20]: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [07:41<00:00,  1.69it/s]
+[epoch 1] train_loss: 2.154  val_accuracy: 0.638
+train epoch[2/20] loss:1.820:  31%|███████████████████████████████▋                                                                      | 3313/10644 [1:14:41<8:32:28,  4.19s/it]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[2/20] loss:1.507: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:09:17<00:00,  1.41s/it]
+valid epoch[2/20]: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [07:27<00:00,  1.75it/s]
+[epoch 2] train_loss: 1.729  val_accuracy: 0.654
+train epoch[3/20] loss:1.290: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████▌| 10595/10644 [4:10:40<02:26,  2.99s/it]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[3/20] loss:1.730: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:11:40<00:00,  1.42s/it]
+valid epoch[3/20]: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [07:31<00:00,  1.73it/s]
+[epoch 3] train_loss: 1.642  val_accuracy: 0.658
+train epoch[4/20] loss:1.149:  15%|█████████████████▍                                                                                               | 1648/10644 [37:02<28:20,  5.29it/s]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[4/20] loss:1.768: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:08:08<00:00,  1.40s/it]
+valid epoch[4/20]: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [07:09<00:00,  1.82it/s]
+[epoch 4] train_loss: 1.576  val_accuracy: 0.671
+train epoch[5/20] loss:1.629: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▍| 10594/10644 [4:06:09<01:27,  1.75s/it]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[5/20] loss:1.123: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:07:30<00:00,  1.40s/it]
+valid epoch[5/20]: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [07:44<00:00,  1.68it/s]
+[epoch 5] train_loss: 1.523  val_accuracy: 0.677
+train epoch[6/20] loss:1.858:  89%|███████████████████████████████████████████████████████████████████████████████████████████████████            | 9499/10644 [3:37:54<12:03,  1.58it/s]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[6/20] loss:1.467: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:06:17<00:00,  1.39s/it]
+valid epoch[6/20]: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [08:27<00:00,  1.54it/s]
+[epoch 6] train_loss: 1.476  val_accuracy: 0.683
+train epoch[7/20] loss:1.392:   7%|████████▍                                                                                                         | 784/10644 [16:29<41:06,  4.00it/s]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[7/20] loss:1.610: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:05:14<00:00,  1.38s/it]
+valid epoch[7/20]: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [09:02<00:00,  1.44it/s]
+[epoch 7] train_loss: 1.437  val_accuracy: 0.688
+train epoch[8/20] loss:1.726:  33%|████████████████████████████████████▏                                                                          | 3472/10644 [1:16:53<22:03,  5.42it/s]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[8/20] loss:1.327: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:03:36<00:00,  1.37s/it]
+valid epoch[8/20]: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [11:29<00:00,  1.13it/s]
+[epoch 8] train_loss: 1.402  val_accuracy: 0.688
+train epoch[9/20] loss:1.668:  69%|████████████████████████████████████████████████████████████████████████████▌                                  | 7344/10644 [2:44:16<10:18,  5.33it/s]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[9/20] loss:2.707: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:03:37<00:00,  1.37s/it]
+valid epoch[9/20]: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [11:59<00:00,  1.09it/s]
+[epoch 9] train_loss: 1.370  val_accuracy: 0.691
+train epoch[10/20] loss:1.513:  69%|██████████████████████████████████████████████████████████████████████████▍                                 | 7332/10644 [2:43:57<1:49:38,  1.99s/it]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[10/20] loss:1.664: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:03:22<00:00,  1.37s/it]
+valid epoch[10/20]: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [12:01<00:00,  1.08it/s]
+[epoch 10] train_loss: 1.339  val_accuracy: 0.694
+train epoch[11/20] loss:1.536:  40%|████████████████████████████████████████████                                                                  | 4267/10644 [1:33:27<34:05,  3.12it/s]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[11/20] loss:1.107: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:03:06<00:00,  1.37s/it]
+valid epoch[11/20]: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [11:51<00:00,  1.10it/s]
+[epoch 11] train_loss: 1.309  val_accuracy: 0.696
+train epoch[12/20] loss:1.113:  71%|█████████████████████████████████████████████████████████████████████████████▉                                | 7536/10644 [2:51:10<14:41,  3.53it/s]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[12/20] loss:1.048: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:06:38<00:00,  1.39s/it]
+valid epoch[12/20]: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [11:52<00:00,  1.10it/s]
+[epoch 12] train_loss: 1.284  val_accuracy: 0.697
+train epoch[13/20] loss:1.099:  31%|██████████████████████████████████▎                                                                           | 3323/10644 [1:12:36<44:04,  2.77it/s]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[13/20] loss:1.434: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:04:05<00:00,  1.38s/it]
+valid epoch[13/20]: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [11:55<00:00,  1.09it/s]
+[epoch 13] train_loss: 1.261  val_accuracy: 0.700
+train epoch[14/20] loss:1.094:  11%|███████████▊                                                                                                    | 1120/10644 [23:27<31:15,  5.08it/s]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[14/20] loss:1.327: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:04:59<00:00,  1.38s/it]
+valid epoch[14/20]: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [12:01<00:00,  1.08it/s]
+[epoch 14] train_loss: 1.240  val_accuracy: 0.701
+train epoch[15/20] loss:1.309:  31%|██████████████████████████████████▏                                                                           | 3312/10644 [1:12:10<29:06,  4.20it/s]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[15/20] loss:1.429: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:03:39<00:00,  1.37s/it]
+valid epoch[15/20]: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [12:05<00:00,  1.08it/s]
+[epoch 15] train_loss: 1.216  val_accuracy: 0.706
+train epoch[16/20] loss:0.978:  37%|███████████████████████████████████████▉                                                                    | 3936/10644 [1:26:02<1:51:48,  1.00s/it]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[16/20] loss:1.554:  45%|█████████████████████████████████████████████████▌                                                            | 4800/10644 [1:45:37<18:25,  5.29it/s]train epoch[16/20] loss:1.339:  46%|██████████████████████████████████████████████████                                                            | 4848/10644 [1:46:43<18:15,  5.29it/s]
+train epoch[16/20] loss:1.172: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:03:46<00:00,  1.37s/it]
+valid epoch[16/20]: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [11:58<00:00,  1.09it/s]
+[epoch 16] train_loss: 1.197  val_accuracy: 0.703
+train epoch[17/20] loss:1.046:  96%|█████████████████████████████████████████████████████████████████████████████████████████████████████████    | 10257/10644 [3:55:26<02:58,  2.17it/s]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[17/20] loss:0.977: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:04:44<00:00,  1.38s/it]
+valid epoch[17/20]: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [11:56<00:00,  1.09it/s]
+[epoch 17] train_loss: 1.180  val_accuracy: 0.702
+train epoch[18/20] loss:0.968:  54%|██████████████████████████████████████████████████████████▋                                                 | 5780/10644 [2:20:01<4:34:45,  3.39s/it]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[18/20] loss:1.182: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:22:02<00:00,  1.48s/it]
+valid epoch[18/20]: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [11:57<00:00,  1.09it/s]
+[epoch 18] train_loss: 1.160  val_accuracy: 0.707
+train epoch[19/20] loss:1.003:  61%|███████████████████████████████████████████████████████████████████                                           | 6488/10644 [2:34:37<53:57,  1.28it/s]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[19/20] loss:1.360: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:18:43<00:00,  1.46s/it]
+valid epoch[19/20]: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [11:59<00:00,  1.09it/s]
+[epoch 19] train_loss: 1.143  val_accuracy: 0.706
+train epoch[20/20] loss:0.931:  44%|███████████████████████████████████████████████▎                                                            | 4661/10644 [1:45:08<3:43:54,  2.25s/it]/home/xhr/.local/lib/python3.7/site-packages/PIL/TiffImagePlugin.py:802: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+train epoch[20/20] loss:2.975: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10644/10644 [4:08:00<00:00,  1.40s/it]
+valid epoch[20/20]: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 782/782 [12:00<00:00,  1.08it/s]
+[epoch 20] train_loss: 1.129  val_accuracy: 0.707
+Finished Training
+

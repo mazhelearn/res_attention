@@ -1,0 +1,7 @@
+/imagenet/train/
+/imagenet/val/
+/.idea/
+/logs/resNet50.pth
+/logs/resNet50_noca.pth
+/imagenet/ILSVRC2012_img_train/
+/imagenet/ILSVRC2012_img_val/
